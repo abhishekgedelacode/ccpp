@@ -1,0 +1,8 @@
+        | 1 SET i AND j TO 0                
+X   X   | 2 LOOP FOR i<5 DO
+ X X    | 3    LOOP FOR j<5 DO
+  X     | 4        IF i=j AND i+j=4 THEN
+ X X    | 5            PRINT 'X'
+X   X   | 6        ELSE 
+        | 7            PRINT ' '
+        | 8    PRINT '\n' 

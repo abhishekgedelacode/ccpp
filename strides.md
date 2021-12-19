@@ -1,10 +1,7 @@
-DECLARE a,b,c
-READ a,b,c
-SET avg TO a+b+c/3
-PRINT avg
-
-3
-5
-7
-8
-10
+num = 15
+if num>0 and num<10:
+print("range 1")
+elif 10 < num < 20:
+print("range 2")
+else:
+print("range 3")

@@ -1,6 +1,4 @@
 #include <stdio.h>
-main()
+int main()
 {
-    printf("STRIDES");
-    return 0;
 }
